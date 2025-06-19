@@ -1,1 +1,0 @@
-console.log("int x = 0");
