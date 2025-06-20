@@ -6,6 +6,4 @@ CC = gcc
 
 all:
 	$(CC) src/$(FILE) $(FLAGS) $(TARGET)
-
-install: 
 	cp $(TARGET) /usr/local/bin
