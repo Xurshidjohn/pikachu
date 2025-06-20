@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     printf("z_(\")(\") -> Pika Pika!\n\n");
     printf("Downloading started...\n");
         system(system_command);
-        printf("\nSUCCESSFULLY DOWNLOADED!!");
+        printf("\nSUCCESSFULLY DOWNLOADED!!\n");
     #elif __linux__
     char *system_command = malloc(sizeof(char) * 120);
         system("clear");
@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
     printf("z_(\")(\") -> Pika Pika!\n\n");
     printf("Downloading started...\n");
         system(system_command);
-        printf("\nSUCCESSFULLY DOWNLOADED!!");
+        printf("\nSUCCESSFULLY DOWNLOADED!!\n");
     #else
         printf("Bilmadim");
     #endif
