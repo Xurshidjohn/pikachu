@@ -8,7 +8,6 @@ z_(")(") -> Pika Pika!
 
 Downloading started...
 ########################################################################## 100.0%
-``
 
 SUCCESSFULLY DOWNLOADED!!
-C:\Users\%USERNAME%\PIKACHU> ...
+``
