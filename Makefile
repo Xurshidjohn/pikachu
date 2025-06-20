@@ -2,7 +2,7 @@ TARGET = pikachu
 FILE = index.c
 FLAGS = -o
 
-CC = GCC
+CC = gcc
 
 all:
 	$(CC) src/$(FILE) $(FLAGS) $(TARGET)
