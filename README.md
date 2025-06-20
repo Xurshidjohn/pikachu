@@ -1,9 +1,9 @@
 # PIKACHUUUUUUUU!
 
 ```
- PIKACHU TERMINAL
-  (\__/)\n
-  (o^.^)\n
+PIKACHU TERMINAL
+  (\__/)
+  (o^.^)
 z_(")(") -> Pika Pika!
 
 Downloading started...
