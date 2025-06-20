@@ -1,3 +1,7 @@
+### Links List
+
++ [Install]()
+
 # PIKACHUUUUUUUU!
 
 ```
@@ -42,8 +46,26 @@ Please Enter file url! Pika Pika!
 root@ubuntu:/home/vboxuser# 
 ```
 
-# PIKACHU IS CURRENTLY ONLY 
+#  Pikachu is current only 
 
 + Windows OS
 + Linux OS
 + Mac OS (soon)
+
+# Installing
+
+```
+git clone https://github.com/Xurshidjohn/pikachu.git
+
+```
+
+```
+cd pikachu
+```
+
+```
+make 
+
+```
+
+## And Ready!
