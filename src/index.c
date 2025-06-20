@@ -34,7 +34,11 @@ int main(int argc, char const *argv[])
         system(system_command);
         printf("\nSUCCESSFULLY DOWNLOADED!!\n");
         } else {
-            printf("\nPlease Enter file url! Pika Pika!");
+            printf(" PIKACHU TERMINAL\n");
+            printf("  (\\__/)\n");
+            printf("  (o^.^)\n");
+            printf("z_(\")(\") -> Pika Pika!\n\n");
+            printf("\nPlease Enter file url! Pika Pika!\n\n");
         }
     #else
         printf("Bilmadim");
