@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
 #include <unistd.h>
 int main(int argc, char const *argv[])
 {
     #ifdef _WIN32
+        #include <windows.h>
         char *system_command = malloc(sizeof(char) * 120);
         system("cls");
         sprintf(system_command, "curl --progress-bar -O %s", argv[1]);
