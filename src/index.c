@@ -5,18 +5,16 @@
 
 int main(int argc, char const *argv[])
 {
-    char pi[100] = "PI", ka[100] = "KA", chu[100] = "CHU!!!!";
     #ifdef _WIN32
         char *system_command = malloc(sizeof(char) * 120);
         system("cls");
-        sprintf(system_command, "curl -s -O %s", argv[1]);
-        // Sleep(100);    
-        printf("%s", pi);
-            Sleep(400);
-            printf("%s", ka);
-            Sleep(400);
-            printf("%s", chu);
+        sprintf(system_command, "curl --progress-bar -O %s", argv[1]);
+        for(int i = 0;i < 4;i++) {
+            printf("PIKACHU!! PIKACHU!! PIKACHU!! PIKACHU!! PIKACHU!!\n");
+            Sleep(100);
+        }
         system(system_command);
+        printf("\nSUCCESSFULLY DOWNLOADED!!");
     #elif __linux__
         printf("siz linux tizimidasiz");
     #else
