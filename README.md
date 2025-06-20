@@ -1,6 +1,6 @@
 ### Links List
 
-+ [Install]()
++ [Install](https://github.com/Xurshidjohn/pikachu?tab=readme-ov-file#installing)
 
 # PIKACHUUUUUUUU!
 
@@ -54,18 +54,21 @@ root@ubuntu:/home/vboxuser#
 
 # Installing
 
+## For Linux and Mac OS
 ```
 git clone https://github.com/Xurshidjohn/pikachu.git
-
 ```
+
+### next
 
 ```
 cd pikachu
 ```
 
+### next
+
 ```
 make 
-
 ```
 
 ## And Ready!
